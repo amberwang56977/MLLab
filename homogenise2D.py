@@ -334,7 +334,7 @@ def generate_cross_unit_cell(a, rx, ry, show=True):
     # -------------------------
     if show:
         plt.figure(figsize=(2, 2))  # display size (in inches)
-        plt.imshow(1 - arr, cmap='gray', origin='lower')
+        plt.imshow(1-arr, cmap='gray', origin='lower')
         plt.axis('off')
         plt.gca().set_aspect('equal', adjustable='box')
         plt.tight_layout()
